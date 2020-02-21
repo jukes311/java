@@ -4,6 +4,7 @@
 public class HelloWorld
 {
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		Answerable phone = () -> "Hello";
+		System.out.println(phone.answer());
 	}
 }
